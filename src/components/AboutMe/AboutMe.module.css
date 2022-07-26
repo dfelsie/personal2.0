@@ -1,0 +1,10 @@
+.aboutMeSec {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--head-sec-color);
+  height: 500px;
+}
+
+.identityBarDiv {
+  display: flex;
+}
