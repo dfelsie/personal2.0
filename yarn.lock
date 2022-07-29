@@ -735,6 +735,31 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
   "version" "0.2.5"
 
+"@fontsource/inter@^4.5.11":
+  "integrity" "sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w=="
+  "resolved" "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.11.tgz"
+  "version" "4.5.11"
+
+"@fontsource/montserrat@^4.5.11":
+  "integrity" "sha512-XAYZmprnZDVSLIeEiB3evVG2JD+yoR9aT+I6LCOcwZFQ6ro9UPpopDncqoqwv+j5M0/UjyAP6ov70+L/fmP8Gg=="
+  "resolved" "https://registry.npmjs.org/@fontsource/montserrat/-/montserrat-4.5.11.tgz"
+  "version" "4.5.11"
+
+"@fontsource/puritan@^4.5.9":
+  "integrity" "sha512-TuhCHhAMoLBmKpr/ceENQEMRBrG+iLkjtWXeWiuJgo6QJkGhnAsNvZ/SeFiU7e2QmIyQBbr01OIU9m/j46am3w=="
+  "resolved" "https://registry.npmjs.org/@fontsource/puritan/-/puritan-4.5.9.tgz"
+  "version" "4.5.9"
+
+"@fontsource/raleway@^4.5.9":
+  "integrity" "sha512-K0GFmuJ5mlEX2czTzRHLyiO2dJDS+GGdtPkPOempss4ElgkYLYpgyqBMcJno5WeSOC9ABGMmtSJ6RtVVljUBzw=="
+  "resolved" "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.5.9.tgz"
+  "version" "4.5.9"
+
+"@fontsource/ubuntu@^4.5.10":
+  "integrity" "sha512-23RShv+KtrFTZveOh11yhFFwKfEC5k7DnOdSYSkVnZqcFoj98rpfIfhR6RoYORzDofr8zSOmZBHbfaamSZTnNg=="
+  "resolved" "https://registry.npmjs.org/@fontsource/ubuntu/-/ubuntu-4.5.10.tgz"
+  "version" "4.5.10"
+
 "@motionone/animation@^10.12.0":
   "integrity" "sha512-dxQ+1wWxL6iFHDy1uv6hhcPjIdOg36eDT56jN4LI7Z5HZRyLpq8x1t7JFQclo/IEIb+6Bk4atmyinGFdXVECuA=="
   "resolved" "https://registry.npmjs.org/@motionone/animation/-/animation-10.13.1.tgz"

@@ -12,10 +12,12 @@ import {
 
 type Props = {};
 import localStyles from "./AboutMe.module.css";
+import sharedStyles from "../../sharedStyles.module.css";
 import IdentityBar from "./IdentityBar";
+import joinClasses from "../../utils/joinClasses";
 export default function AboutMeHeadSec({}: Props) {
   return (
-    <div className={localStyles.aboutMeSec}>
+    <div className={joinClasses(localStyles.aboutMeSec, sharedStyles.triangle)}>
       <IdentityBar />{" "}
       <div className={localStyles.headText}>
         <h2>
