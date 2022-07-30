@@ -8,7 +8,9 @@ export default function FooterSec({}: Props) {
     <div className={joinClasses(localStyles.footerSec)}>
       <ul className={localStyles.linkList}>
         <li>
-          <a href="https://www.linkedin.com/feed/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/daniel-felsenthal-697797213/">
+            Linkedin
+          </a>
         </li>
         <li>
           <a href="https://github.com/dfelsie">Github</a>
