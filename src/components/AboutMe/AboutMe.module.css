@@ -6,6 +6,7 @@
   color: rgba(245, 245, 245, 0.89);
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5%;
 }
 
 .identityBarDiv {
@@ -15,6 +16,7 @@
   margin-right: auto;
   margin-left: auto;
   font-weight: 700;
+  align-items: center;
 }
 
 .identityBarAvatar {

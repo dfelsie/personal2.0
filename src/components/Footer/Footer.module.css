@@ -5,11 +5,12 @@
   right: 0;
   height: 100px;
   background-color: #00bbf9;
-  color: whitesmoke;
+  color: rgb(230, 230, 230);
   padding-left: 5%;
   padding-right: 5%;
   margin-top: auto;
   margin-bottom: auto;
+  font-weight: 500;
 }
 
 .linkList {

@@ -30,7 +30,10 @@ export default function SkillsSec({}: Props) {
       />
       <div className={localStyles.skillGroupBigDiv}>
         {skillGroups.map((val, i) => (
-          <div className={localStyles.skillGroupDiv}>
+          <div
+            className={localStyles.skillGroupDiv}
+            key={`Skillgroupdivnum${i}`}
+          >
             <div className={localStyles.skillGroup} key={`Skillgroupnum${i}`}>
               {val}
             </div>

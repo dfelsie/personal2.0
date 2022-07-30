@@ -10,7 +10,7 @@ type Props = {};
 const talentHeadList: TalentCardData[] = [
   { headText: "Websites", bodyText: "Dingus Dongus", icon: <MdOutlineWeb /> },
 
-  { headText: "UX & UI", bodyText: "Dingus Dongus", icon: <FaHandSparkles /> },
+  { headText: "Design", bodyText: "Dingus Dongus", icon: <FaHandSparkles /> },
   {
     headText: "Backend",
 
