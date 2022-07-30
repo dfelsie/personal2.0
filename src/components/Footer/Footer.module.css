@@ -4,5 +4,30 @@
   left: 0;
   right: 0;
   height: 100px;
-  background-color: purple;
+  background-color: #00bbf9;
+  color: whitesmoke;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.linkList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.linkList > li {
+  transition: linear 1s;
+}
+.linkList > li :hover {
+  text-decoration: underline;
+}
+
+.madeBy {
+  margin-top: 15px;
+  text-align: center;
 }

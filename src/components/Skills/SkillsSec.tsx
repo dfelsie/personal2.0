@@ -6,24 +6,35 @@ import joinClasses from "../../utils/joinClasses";
 type Props = {};
 const skills = {
   frontend: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  frontend1: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
-  frontend2: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
+  backend: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
+  mobile: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
+  "machine learning": [
+    "HTML5",
+    "CSS3",
+    "Javascript/Typescript",
+    "React",
+    "Next.js",
+  ],
+  devops: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
+  other: ["HTML5", "CSS3", "Javascript/Typescript", "React", "Next.js"],
 };
 const skillGroups = Object.keys(skills);
 export default function SkillsSec({}: Props) {
   return (
     <div className={joinClasses(sharedStyles.basicSec)}>
       <SecHeader
-        bodyText={"I'm a man of countless talents"}
-        headerText={"How I can help you"}
+        bodyText={
+          "I have experience with both fullstack development and machine learning."
+        }
+        headerText={"Tools I use"}
       />
-      <div>
+      <div className={localStyles.skillGroupBigDiv}>
         {skillGroups.map((val, i) => (
           <div className={localStyles.skillGroupDiv}>
-            <div className={localStyles.skillGroup} key={`Objectgroupnum${i}`}>
+            <div className={localStyles.skillGroup} key={`Skillgroupnum${i}`}>
               {val}
             </div>
-            <div>
+            <div key={`Skillsentencenum${i}`}>
               {skills[val].join(",")}
               {/* {skills[val].map((val, i) => (
                 <></>

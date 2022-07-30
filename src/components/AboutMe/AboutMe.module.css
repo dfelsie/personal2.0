@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--head-sec-color);
-  height: clamp(450px, 45vh, 45vh);
+  height: clamp(500px, 10vh, 10vh);
   color: rgba(245, 245, 245, 0.89);
   padding-left: 5%;
   padding-right: 5%;
@@ -14,6 +14,7 @@
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
+  font-weight: 700;
 }
 
 .identityBarAvatar {
@@ -31,4 +32,11 @@
 .headText {
   font-weight: 700;
   font-size: 1.75rem;
+}
+
+.smallHeadText {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  color: #fee440;
+  margin-bottom: 10px;
 }
